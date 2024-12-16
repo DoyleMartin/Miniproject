@@ -2,18 +2,21 @@
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-h1,
-h3 {
+h1 {
 text-align: center;
 color: chocolate;
+padding-top: 70px;
 }
+
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    text-align: center;
+    color: chocolate;
 }
+
 .header{ 
     padding: 2%;
     text-align: right;
@@ -30,3 +33,27 @@ text-decoration: none;
 color: antiquewhite; 
 }
 
+footer {
+    color: antiquewhite;
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 17px;
+
+}
+
+h3{ 
+    text-align: center;
+    color: chocolate;
+    padding-bottom: 50px;
+}
+
+form{
+padding-bottom: 50px;
+text-align: center;
+background-color: aqua;
+
+}
