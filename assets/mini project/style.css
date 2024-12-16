@@ -1,7 +1,11 @@
+*{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 h1,
 h3 {
 text-align: center;
-font-family: Arial, Helvetica, sans-serif;
 color: chocolate;
 }
 .center{
@@ -13,9 +17,16 @@ color: chocolate;
 .header{ 
     padding: 2%;
     text-align: right;
-    background: rgb(26, 13, 83);
-    color: aliceblue;
+    background: rgb(17, 17, 17);
     font-size: 20px;
-    color: rgb(46, 177, 20);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+a{
+text-decoration: none;   
+color: antiquewhite; 
 }
 
